@@ -1,14 +1,20 @@
-# Build Methodology
+# Demo | Fluid to Fixed Width Layouts II
+
+This demo focues on flexbile layout (stages of squishiness) without media queries.
+
+--- 
+
+## Build Methodology
 
 
-## HTML
+### HTML
 
 1. Start by sectioning everything off and migrating all of the body copy from the provided markdown file to the markup. You should have a header with navigation and a hero banner, a main with three sections, and a footer.
 
 2. If you'd like to use on-page anchors, you can create an ID for each section and link to it in your navigation. You can also prepend the hyperlink references in your footer to modify the browser's behaviour, giving the telephone number and email address a little added functionality. Validate your code.
 
 
-## Utility Classes
+### Utility Classes
 
 Utility classes are a way of writing modular code -- that is, they are a set of rules that can be used over and over again on multiple elements.
 
@@ -23,7 +29,7 @@ Utility classes are a way of writing modular code -- that is, they are a set of 
 5. Create a .flex class and apply it to every element that you want to turn into a flex container. 
 
 
-## More CSS
+### More CSS
 
 6. Using top-down logic, begin with more general or universal styles and get gradually more specific. Start with typographic styles, then get into individual sections.
 
